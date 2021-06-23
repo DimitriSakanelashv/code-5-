@@ -1,0 +1,40 @@
+
+
+/*ufos parametrebi*/
+.ufo {
+	position:relative;
+	height: 100px;
+	margin-top: 500px;
+	animation: ufo 8s infinite;
+}
+/*ufos parametrebis dasasruli*/
+.space {
+	position:absolute;
+	width: 100%;
+}
+/*varianti 2*/
+/*@keyframes ast {
+	  from {left:0px;}
+      to   {left:1000px;}
+}*/
+ /*ufos traeqtroai*/
+@keyframes ufo {
+  0%   {left: 0px; top: 0px;}
+  25%  {left: 600px; top: 200px;}
+  50%  {left: 200px; top: 100px;}
+  75%  {left: 100px; top: 200px;}
+  100% {left: 0px; top: 0px;}
+} 
+   /*astronavtis parametrebi*/
+.ast {
+   position:absolute;
+   width: 300px;
+   animation: ast 100s infinite;
+   animation-timing-function: linear;
+
+} 
+/*astronavtis traeqtroa*/
+  @keyframes ast {
+  0%   {left: 0px; top: 100px;}
+  100% {left: 600px; top: 0px;}
+  }
